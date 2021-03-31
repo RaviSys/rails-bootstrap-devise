@@ -17,3 +17,18 @@ Prerequisites:
 - Bundler
 - Node(>= 11.x)
 - Yarn
+
+```sh
+bundle install
+yarn install
+```
+Now you need to setup the database. And you need to run following commands but before running them you need to change the values of username and password of your pg inside 
+```sh
+config/database.yml
+```
+Once changed, run following commands:
+
+```sh
+rails db:create
+rails data:migrate
+```
