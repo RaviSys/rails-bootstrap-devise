@@ -1,24 +1,19 @@
-# README
+# Rails-Bootstrap-Devise Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a startup rails 6 application/boilerplate where you can avoid adding bootstrap and devise gem from scratch. This bolierplate will encourage you to start directly with your main tasks. 
 
-Things you may want to cover:
+You will find following items in this startup rails application:
 
-* Ruby version
+* Bootstrap 4.3, JQuery, Popper.js integrated using webpacker
+* Font Awesome 5 integrated using webpacker
+* Devise implemented with customised bootstrap forms for sessions, registrations and passwords
+* Letter opener implemented to test out the emails at locals
 
-* System dependencies
+## Development Setup
 
-* Configuration
+Prerequisites:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- PostgreSQL
+- Bundler
+- Node(>= 11.x)
+- Yarn
