@@ -32,3 +32,18 @@ Once changed, run following commands:
 rails db:create
 rails data:migrate
 ```
+
+Now you are all set. Run following command on your terminal:
+
+```sh
+rails server 
+```
+To render css and js assets faster open another tab and run following command:
+
+```sh
+./bin/webpack-dev-server
+```
+
+open browser at: [http://localhost:3000](http://localhost:3000).
+
+Cheers!!
