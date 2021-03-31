@@ -2,12 +2,12 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: postgres
-  password: 123456
+  username: your-db-username
+  password: your-db-password
   host: localhost
   port: 5432
   timeout: 5000
 
 development: 
   <<: *default
-  database: rails-boiler-plate  
+  database: rails-practitioners-development
